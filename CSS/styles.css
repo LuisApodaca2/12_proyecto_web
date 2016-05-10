@@ -1,0 +1,103 @@
+.block-center{
+    margin: 0 auto;
+}
+
+
+
+.container{
+    width: 920px;    
+}
+
+#titulos h1{font-size: 1.5em}
+
+/* Bloque de encabezado inicio */
+
+#encabezado{
+    height: 150px;
+    display: flex;
+    background-color: lightblue;
+    justify-content: space-between;
+}
+
+#encabezado figure{
+    margin: 0;
+    
+}
+
+#encabezado #titulos *{
+    margin: 0;
+    padding: 0;
+}
+
+/* Bloque de encabezado fin */
+
+/*Bloque de navegacion*/
+
+#barra-navegacion{
+    height: 50px;
+    background-color: #d8d8d8;
+    
+}
+
+#barra-navegacion > ul{
+   display: flex;
+}
+
+#barra-navegacion > ul > li{
+   display: flex;
+}
+
+
+#barra-navegacion > li{
+   display: block;
+}
+
+#barra-navegacion a{
+   color:bisque;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+#barra-navegacion ul ul{
+   display: none;
+}
+
+/*Bloque de navegacion fin*/
+
+nav li{
+    display:inline-flex;
+    
+}
+nav a{
+    background-color: #ff6c00;
+    padding: 10px;
+    margin: 5px 10px;
+    text-decoration: none;
+}
+nav li a:hover{
+    background-color: aliceblue;
+}
+#nota-principal{
+    height: 500px;
+    background-color: lightgreen;
+}
+
+#nota-secundarias{
+    width: 660px;
+    padding:20px;
+    float: left;
+    background-color: azure;
+}
+
+#publicidad{
+    width: 210px;
+    padding: 5px;
+    float:right;
+    background-color: lightsalmon;
+}
+
+#pie{
+    clear: both;
+    height: 150px;
+    background-color: lightsteelblue;
+}
