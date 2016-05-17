@@ -2,18 +2,19 @@
     margin: 0 auto;
 }
 
-
-
 .container{
     width: 920px;    
 }
 
 #titulos h1{font-size: 1.5em}
+#titulos h2{font-size: 1.3em}
+#titulos h3{font-size: 1.0em}
+#titulos h4{font-size: 0.9em}
 
 /* Bloque de encabezado inicio */
 
 #encabezado{
-    height: 150px;
+    height: 140px;
     display: flex;
     background-color: lightblue;
     justify-content: space-between;
@@ -53,9 +54,9 @@
 }
 
 #barra-navegacion a{
-   color:bisque;
+   color:black;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 8px 18px;
 }
 
 #barra-navegacion ul ul{
@@ -69,13 +70,15 @@ nav li{
     
 }
 nav a{
-    background-color: #ff6c00;
+    background-color: none;
     padding: 10px;
-    margin: 5px 10px;
+    margin: 4px 9px;
     text-decoration: none;
+    
 }
 nav li a:hover{
     background-color: aliceblue;
+    
 }
 #nota-principal{
     height: 500px;
