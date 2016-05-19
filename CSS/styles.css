@@ -28,6 +28,7 @@
 #encabezado #titulos *{
     margin: 0;
     padding: 0;
+    border: 10px;
 }
 
 /* Bloque de encabezado fin */
@@ -35,17 +36,24 @@
 /*Bloque de navegacion*/
 
 #barra-navegacion{
+    justify-content: center;
     height: 50px;
     background-color: #d8d8d8;
+    display:flex;
     
+}
+
+#barra-navegacion li{
+    display: inline-block;
+    padding: 0;
 }
 
 #barra-navegacion > ul{
    display: flex;
 }
 
-#barra-navegacion > ul > li{
-   display: flex;
+#barra-navegacion > ul > li >a:hover{
+ background-color: darkgray;
 }
 
 
@@ -56,7 +64,9 @@
 #barra-navegacion a{
    color:black;
     text-decoration: none;
+    background-color: darkgray;
     padding: 8px 18px;
+    transition: 1s;
 }
 
 #barra-navegacion ul ul{
@@ -85,8 +95,21 @@ nav li a:hover{
     background-color: lightgreen;
 }
 
+#nota-secundarias article{
+    Display:flex;
+}
+
+#nota-secundarias figure{
+    position: relative;
+}
+
+#nota-secundarias figure span{
+    position: absolute;
+}
+
+
 #nota-secundarias{
-    width: 660px;
+    width: 660px; 
     padding:20px;
     float: left;
     background-color: azure;
@@ -103,4 +126,8 @@ nav li a:hover{
     clear: both;
     height: 150px;
     background-color: lightsteelblue;
+}
+
+figure{
+    margin: 0;
 }
